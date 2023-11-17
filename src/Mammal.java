@@ -1,0 +1,15 @@
+public class Mammal extends Animal {
+    public Mammal() {
+    }
+
+    public Mammal(String name, int age, double weight) {
+        super(name, age, weight);
+    }
+     @Override
+    public  void  eat(){
+        System.out.println("Mamal eating");
+     }
+    public String getVoice(){
+        return "Mammal sound";
+    }
+}
